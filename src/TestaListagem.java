@@ -33,11 +33,11 @@ public class TestaListagem {
 			System.out.println(nome);
 			String descricao = resultSet.getString("DESCRICAO");
 			System.out.println(descricao);
+			System.out.println();
 			
 			//Dentro do resultSet, utilizando nesse caso o getInt e getString, podemos buscar pelo Index(1, 2, 3) 
 			// Ou pelo nome da da própria coluna, o que é mais recomendado, já que deixa o código mais legível.
-		}
-		
+		}	
 		con.close();
 	}
 
