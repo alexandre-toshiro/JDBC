@@ -12,5 +12,4 @@ public class TestaConexao {
 
 		connection.close();
 	}
-
 }
